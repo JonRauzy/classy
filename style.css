@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+* {
+    font-family: roboto;
+    color:rgb(17, 17, 17);
+}
+
+nav  {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    margin: 0;
+}
+
+.navbar {
+    height: 10vh;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlist {
+    padding-right: 40px;;
+}
+
+.splash {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-image: url(https://images.pexels.com/photos/4946529/pexels-photo-4946529.jpeg);
+}
+
+h1 {
+    margin: auto;
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: solid 20px rgb(17, 17, 17);  */
+}
+
+
+
+h2 {
+    margin-left: 40px;
+    padding: 3px;
+    border: solid rgb(204, 204, 204) 5px;
+    color: rgb(204, 204, 204);
+}
+
+h2:hover {
+    color: white;
+    border: solid white 5px;
+}
+
+.navbar a {
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+}
+
+
+
