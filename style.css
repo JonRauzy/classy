@@ -64,10 +64,13 @@ h1 {
 }
 
 #olibg {
-  background-image: url(images/olifond.webp);
+  background-image: url(images/olifond.webp); 
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: top; 
+  background-color: rgba(155, 138, 132, 0.4);
+  /* background: linear-gradient(to bottom, transparent, rgb(155, 138, 132),
+    url("images/olifond.webp") */
 }
 
 #conclubg {
@@ -181,6 +184,6 @@ figcaption {
 }
 
 #maface {
-  width: 555px;
+  width: 333px;
   float: left;
 }
