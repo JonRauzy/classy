@@ -20,7 +20,7 @@ nav {
 
 .navbar {
   height: 10vh;
-  width: 72%;
+  width: 80%;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -86,6 +86,12 @@ h1 {
   font-size: 1rem;
 }
 
+#bxltxt {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
 h5 {
   text-indent: 0;
 }
@@ -132,12 +138,12 @@ figcaption {
   text-align: center;
 }
 
-#floface {
+#floface, #oliface {
   width: 400px;
   float: left;
 }
 
-#flo1 {
+#flo1, #oli2 {
   width: 350px;
   float: right;
   margin-right: 40px;
@@ -170,4 +176,9 @@ figcaption {
 #maface {
   width: 555px;
   float: left;
+}
+
+/* pas indentation(bxl exp) */
+#yapas {
+  text-indent: none;
 }
