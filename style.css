@@ -48,7 +48,7 @@ h1 {
 }
 
 .splash-text {
-  min-height: 90vh;
+  height: 90vh;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -78,11 +78,13 @@ h1 {
 }
 
 .text {
-  min-height: 90vh;
+  height: 84.5vh;
   width: 70%;
   margin: auto;
   background-color: rgba(255, 255, 255, 0.88);
   padding-bottom: 50px;
+  overflow: auto;
+  
 }
 
 .text p,
